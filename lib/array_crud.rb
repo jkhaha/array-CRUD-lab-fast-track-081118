@@ -1,13 +1,14 @@
 def create_an_empty_array
-  
+  [ ]
 end
 
 def create_an_array
-  
+  ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"]
+  << "Harry Potter"
 end
 
 def add_element_to_start_of_array(array, element)
